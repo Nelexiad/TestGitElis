@@ -23,11 +23,7 @@ namespace Players
         public DisneyPlus() : base()
         {
            
-        }
-
-      
-
-        
+        }  
 
         //public override void Catalogue(IMovie movieToPlay, List<IMovie> films )
         //{
@@ -44,11 +40,11 @@ namespace Players
         protected override IList<IMovie>? CreateCatalogue()
         {
             var impCatalogue= new List<IMovie>();
-            impCatalogue.Add(new Movie { Title = "Tutto su mia madre",});
-            impCatalogue.Add(new Movie { Title = "Mine Vaganti", });
-            impCatalogue.Add(new Movie { Title = "Matrix", });
-            impCatalogue.Add(new Movie { Title = "Dune", });
-            impCatalogue.Add(new Movie { Title = "Orgoglio e Pregiudizio", });
+            impCatalogue.Add(new Movie { Title = "Tutto su mia madre" });
+            impCatalogue.Add(new Movie { Title = "Mine Vaganti" });
+            impCatalogue.Add(new Movie { Title = "Matrix" });
+            impCatalogue.Add(new Movie { Title = "Dune" });
+            impCatalogue.Add(new Movie { Title = "Orgoglio e Pregiudizio" });
             return impCatalogue;
         }
     }
