@@ -15,8 +15,6 @@ namespace Players
         {
         }
 
-        
-
         public override void Play()
         {
             Console.WriteLine($"flusso video da{nameof(NetflixPlayer)}");
